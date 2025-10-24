@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quy Trình - Kiều Gia Construction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'kieugia-primary': '#B98D4A',
+                        'kieugia-dark': '#1A1A1A',
+                        'kieugia-text': '#333333',
+                    },
+                    fontFamily: {
+                        'sans': ['Manrope', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased text-kieugia-text bg-white">
+
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+                <img src="https://i.ibb.co/L8G4z39/Logo-nen-trang-placeholder.png" alt="Kiều Gia Construction Logo" class="h-12 md:h-16">
+            </a>
+            <div class="hidden md:flex space-x-8 items-center font-semibold">
+                <a href="index.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Trang Chủ</a>
+                <a href="gioi-thieu.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Giới Thiệu</a>
+                <a href="dich-vu.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Dịch Vụ</a>
+                <a href="du-an.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Dự Án</a>
+                <a href="quy-trinh.html" class="text-kieugia-primary border-b-2 border-kieugia-primary pb-1">Quy Trình</a>
+                <a href="bao-gia.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Báo Giá</a>
+                <a href="lien-he.html" class="bg-kieugia-primary text-white px-6 py-2.5 rounded-full font-bold hover:bg-opacity-90 transition-all duration-300">Liên Hệ</a>
+            </div>
+            <button class="md:hidden text-kieugia-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-gray-50 py-24 md:py-32">
+            <div class="container mx-auto px-6 text-center max-w-4xl">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-kieugia-dark leading-tight">Quy Trình Đồng Hành Kiến Tạo Tổ Ấm</h1>
+                <p class="mt-8 text-xl text-kieugia-text">Một quy trình minh bạch (Chữ TÍN) và tận tâm (Chữ TÂM) trong từng bước.</p>
+            </div>
+        </section>
+
+        <section class="py-24 md:py-32 bg-white">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <div class="space-y-16">
+                    
+                    <div class="flex flex-col md:flex-row items-start gap-8">
+                        <span class="text-7xl font-extrabold text-kieugia-primary opacity-30 w-32">01</span>
+                        <div class="mt-2">
+                            <h3 class="text-3xl font-extrabold text-kieugia-dark mb-4">Lắng Nghe Câu Chuyện & Tâm Huyết</h3>
+                            <p class="text-lg text-kieugia-text leading-relaxed">Anh/chị chia sẻ về ngôi nhà mơ ước. Kiều Gia lắng nghe, tư vấn sơ bộ và thấu hiểu mong muốn của anh/chị. (Đây là bước quan trọng nhất).</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-start gap-8">
+                        <span class="text-7xl font-extrabold text-kieugia-primary opacity-30 w-32">02</span>
+                        <div class="mt-2">
+                            <h3 class="text-3xl font-extrabold text-kieugia-dark mb-4">Khảo Sát & Tư Vấn Giải Pháp</h3>
+                            <p class="text-lg text-kieugia-text leading-relaxed">Đội ngũ chuyên gia của Kiều Gia sẽ khảo sát thực tế và đề xuất giải pháp thiết kế, vật liệu phù hợp nhất với tâm huyết và ngân sách.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-start gap-8">
+                        <span class="text-7xl font-extrabold text-kieugia-primary opacity-30 w-32">03</span>
+                        <div class="mt-2">
+                            <h3 class="text-3xl font-extrabold text-kieugia-dark mb-4">Báo Giá Minh Bạch & Ký Hợp Đồng</h3>
+                            <p class="text-lg text-kieugia-text leading-relaxed">Chúng tôi cung cấp báo giá chi tiết, rõ ràng từng hạng mục. Hợp đồng thể hiện đầy đủ cam kết (Chữ TÍN) của Kiều Gia.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-start gap-8">
+                        <span class="text-7xl font-extrabold text-kieugia-primary opacity-30 w-32">04</span>
+                        <div class="mt-2">
+                            <h3 class="text-3xl font-extrabold text-kieugia-dark mb-4">Thiết Kế Tận Tâm</h3>
+                            <p class="text-lg text-kieugia-text leading-relaxed">KTS dồn trọn tâm huyết để hoàn thiện bản vẽ 3D và kỹ thuật, liên tục trao đổi để đảm bảo anh/chị hài lòng tuyệt đối.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-start gap-8">
+                        <span class="text-7xl font-extrabold text-kieugia-primary opacity-30 w-32">05</span>
+                        <div class="mt-2">
+                            <h3 class="text-3xl font-extrabold text-kieugia-dark mb-4">Thi Công Uy Tín & Chính Xác</h3>
+                            <p class="text-lg text-kieugia-text leading-relaxed">Triển khai thi công, giám sát chặt chẽ, cập nhật tiến độ liên tục. Đảm bảo an toàn, chất lượng và đúng tiến độ.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-start gap-8">
+                        <span class="text-7xl font-extrabold text-kieugia-primary opacity-30 w-32">06</span>
+                        <div class="mt-2">
+                            <h3 class="text-3xl font-extrabold text-kieugia-dark mb-4">Nghiệm Thu & Bàn Giao Tổ Ấm</h3>
+                            <p class="text-lg text-kieugia-text leading-relaxed">Chúng tôi cùng anh/chị nghiệm thu cẩn thận trước khi trao chìa khóa tổ ấm.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-start gap-8">
+                        <span class="text-7xl font-extrabold text-kieugia-primary opacity-30 w-32">07</span>
+                        <div class="mt-2">
+                            <h3 class="text-3xl font-extrabold text-kieugia-dark mb-4">Bảo Hành Tận Tâm (Giữ Vững Niềm Tin)</h3>
+                            <p class="text-lg text-kieugia-text leading-relaxed">Kiều Gia tiếp tục đồng hành cùng anh/chị với chính sách bảo hành uy tín, nhanh chóng.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-kieugia-dark text-gray-300 py-20">
+        </footer>
+</body>
+</html>

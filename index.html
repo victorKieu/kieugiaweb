@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiều Gia Construction - Vững Niềm Tin, Dựng Tương Lai</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'kieugia-primary': '#B98D4A',
+                        'kieugia-dark': '#1A1A1A',
+                        'kieugia-text': '#333333',
+                    },
+                    fontFamily: {
+                        'sans': ['Manrope', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased text-kieugia-text bg-white">
+
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+                <img src="https://i.ibb.co/L8G4z39/Logo-nen-trang-placeholder.png" alt="Kiều Gia Construction Logo" class="h-12 md:h-16">
+            </a>
+            <div class="hidden md:flex space-x-8 items-center font-semibold">
+                <a href="index.html" class="text-kieugia-primary border-b-2 border-kieugia-primary pb-1">Trang Chủ</a>
+                <a href="gioi-thieu.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Giới Thiệu</a>
+                <a href="dich-vu.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Dịch Vụ</a>
+                <a href="du-an.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Dự Án</a>
+                <a href="quy-trinh.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Quy Trình</a>
+                <a href="bao-gia.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Báo Giá</a>
+                <a href="lien-he.html" class="bg-kieugia-primary text-white px-6 py-2.5 rounded-full font-bold hover:bg-opacity-90 transition-all duration-300">Liên Hệ</a>
+            </div>
+            <button class="md:hidden text-kieugia-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="relative h-[90vh] min-h-[700px] text-white flex items-center">
+            <div class="absolute inset-0 bg-black opacity-60 z-10"></div>
+            <div class="absolute inset-0">
+                <img src="https://images.unsplash.com/photo-1588880331179-bDCb7f198b13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE4fHxza3lzY3JhcGVyfGVufDB8fHx8MTY3ODg5NzI5Ng&ixlib=rb-4.0.3&q=80&w=1920" 
+                     alt="Công trình ấn tượng của Kiều Gia" 
+                     class="w-full h-full object-cover">
+            </div>
+            <div class="container mx-auto px-6 relative z-20">
+                <div class="max-w-3xl text-left">
+                    <h2 class="text-lg md:text-xl font-semibold tracking-wider uppercase">Kiều Gia Construction - Vững Niềm Tin, Dựng Tương Lai.</h2>
+                    <h1 class="text-5xl md:text-7xl font-extrabold my-6 leading-tight">Nơi "TÂM" và "TÍN" Kiến Tạo Tổ Ấm.</h1>
+                    <p class="text-lg md:text-xl text-gray-200 max-w-2xl mb-10">
+                        Chúng tôi không chỉ xây nhà. Chúng tôi là người đồng hành tận tâm, lắng nghe và hiện thực hóa câu chuyện tâm huyết về ngôi nhà của anh/chị.
+                    </p>
+                    <div class="flex flex-col md:flex-row justify-start gap-4">
+                        <a href="https://zalo.me/0949033913" target="_blank" 
+                           class="bg-kieugia-primary text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all duration-300 transform hover:-translate-y-1">
+                            Chia Sẻ Câu Chuyện Của Bạn (Zalo)
+                        </a>
+                        <a href="dich-vu.html" 
+                           class="bg-white text-kieugia-dark px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-200 transition-all duration-300 transform hover:-translate-y-1">
+                            Khám Phá Dịch Vụ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gioi-thieu" class="py-24 md:py-32 bg-white">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDExfHxhcmNoaXRlY3QlMjBtZWV0aW5nfGVufDB8fHx8MTY3ODg5NzQwMQ&ixlib=rb-4.0.3&q=80&w=1080" 
+                         alt="Đội ngũ Kiều Gia đang tư vấn" 
+                         class="rounded-lg shadow-xl w-full h-full object-cover">
+                </div>
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-kieugia-dark mb-8">Người Đồng Hành Vững Tin Cậy.</h2>
+                    <p class="text-lg text-kieugia-text leading-relaxed mb-6">
+                        Tại Kiều Gia, chúng tôi thấu hiểu sâu sắc rằng ngôi nhà là tâm huyết của cả một đời người. Với Chữ TÂM làm kim chỉ nam cho mọi hành động và Chữ TÍN làm nền tảng cho mọi cam kết.
+                    </p>
+                    <a href="gioi-thieu.html" class="inline-block bg-kieugia-primary text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all duration-300">
+                        Tìm hiểu thêm về Kiều Gia
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="dich-vu" class="py-24 md:py-32 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-kieugia-dark">Dịch Vụ Tận Tâm Từ Trái Tim</h2>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                        <h3 class="text-3xl font-bold text-kieugia-primary mb-5">Thiết Kế Kiến Trúc & Nội Thất</h3>
+                        <p class="text-kieugia-text text-lg leading-relaxed">
+                            Đội ngũ KTS của Kiều Gia sẽ đặt trọn tâm huyết để lắng nghe, thấu hiểu và cá nhân hóa từng chi tiết.
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                        <h3 class="text-3xl font-bold text-kieugia-primary mb-5">Thi Công Trọn Gói</h3>
+                        <p class="text-kieugia-text text-lg leading-relaxed">
+                            Cam kết thi công chuẩn mực, đúng tiến độ và minh bạch. Chữ TÍN của Kiều Gia thể hiện qua từng viên gạch.
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                        <h3 class="text-3xl font-bold text-kieugia-primary mb-5">Sửa Chữa & Cải Tạo</h3>
+                        <p class="text-kieugia-text text-lg leading-relaxed">
+                            Khoác lên chiếc áo mới cho tổ ấm của bạn, nâng tầm không gian sống bằng những giải pháp tối ưu.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24 md:py-32 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-kieugia-dark">Điều Kiều Gia Luôn Cam Kết</h2>
+                </div>
+                <div class="grid md:grid-cols-2 gap-16 max-w-5xl mx-auto">
+                    <div class="flex items-start space-x-6">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 text-kieugia-primary">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-3xl font-extrabold text-kieugia-dark mb-3">CHỮ TÂM</h3>
+                            <p class="text-kieugia-text text-lg leading-relaxed">
+                                Thấu hiểu tâm huyết của gia chủ. Tận tâm trong từng bản vẽ, cẩn trọng trong từng công đoạn thi công, coi công trình của khách hàng như chính ngôi nhà của mình.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-6">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 text-kieugia-primary">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-3xl font-extrabold text-kieugia-dark mb-3">CHỮ TÍN</h3>
+                            <p class="text-kieugia-text text-lg leading-relaxed">
+                                Uy tín là sinh mệnh. Chúng tôi cam kết minh bạch tài chính, đúng tiến độ, chuẩn chất lượng vật tư. Niềm tin của anh/chị là tài sản lớn nhất của Kiều Gia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="du-an" class="py-24 md:py-32 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-kieugia-dark">Những Tổ Ấm Đã Kiến Tạo</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <a href="du-an-chi-tiet.html" class="block relative rounded-lg overflow-hidden shadow-xl group">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6164a83639?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fG1vZGVybiUyMGhvdXNlfGVufDB8fHx8MTY3ODg5NzUyNA&ixlib=rb-4.0.3&q=80&w=1080" 
+                             alt="Biệt thự Hiện đại" class="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-8">
+                            <h3 class="text-3xl font-bold text-white">Biệt thự Hiện đại</h3>
+                            <p class="text-gray-200 text-lg">Thiết kế & Thi công trọn gói</p>
+                        </div>
+                    </a>
+                    <a href="du-an-chi-tiet.html" class="block relative rounded-lg overflow-hidden shadow-xl group">
+                        <img src="https://images.unsplash.com/photo-1570129477490-d11626c710c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDl8fG5lbyUyMGNsYXNzaWNhbCUyMGhvdXNlfGVufDB8fHx8MTY3ODg5NzU1MA&ixlib=rb-4.0.3&q=80&w=1080" 
+                             alt="Nhà phố Tân cổ điển" class="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-8">
+                            <h3 class="text-3xl font-bold text-white">Nhà phố Tân cổ điển</h3>
+                            <p class="text-gray-200 text-lg">Thi công trọn gói</p>
+                        </div>
+                    </a>
+                    <a href="du-an-chi-tiet.html" class="block relative rounded-lg overflow-hidden shadow-xl group">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGx1eHVyeSUyMGludGVyaW9yfGVufDB8fHx8MTY3ODg5NzU4OQ&ixlib=rb-4.0.3&q=80&w=1080" 
+                             alt="Nội thất Chung cư Cao cấp" class="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-8">
+                            <h3 class="text-3xl font-bold text-white">Nội thất Chung cư Cao cấp</h3>
+                            <p class="text-gray-200 text-lg">Thiết kế nội thất</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="text-center mt-16">
+                    <a href="du-an.html" class="inline-block bg-kieugia-primary text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all duration-300">
+                        Xem Tất Cả Dự Án
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="final-cta" class="py-24 md:py-32 bg-kieugia-dark text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-8">Anh/Chị Đã Sẵn Sàng Cho Hành Trình Kiến Tạo Tổ Ấm?</h2>
+                <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-10">
+                    Hãy để Kiều Gia là người đồng hành lắng nghe và tư vấn chi tiết nhất cho câu chuyện về ngôi nhà mơ ước của anh/chị.
+                </p>
+                <a href="tel:0949033913" 
+                   class="inline-block bg-kieugia-primary text-white px-10 py-4 rounded-full font-bold text-xl hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105">
+                    Kết Nối Ngay: 0949.033.913
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-kieugia-dark text-gray-300 py-20">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-16">
+            <div>
+                <a href="index.html">
+                    <img src="https://i.ibb.co/L8G4z39/Logo-nen-trang-placeholder.png" alt="Kiều Gia Construction Logo" class="h-16">
+                </a>
+                <p class="mt-6 text-gray-400 text-lg">Vững Niềm Tin, Dựng Tương Lai.</p>
+                <div class="mt-6 space-y-3 text-lg">
+                    <p><strong>Hotline/Zalo:</strong> <a href="tel:0949033913" class="hover:text-kieugia-primary">0949033913</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:info@kieugia-construction.biz.vn" class="hover:text-kieugia-primary">info@kieugia-construction.biz.vn</a></p>
+                    <p><strong>Địa chỉ:</strong> 72 Đường số 1, Khu nhà ở Thắng Lợi, Khu phố Chiêu Liêu, Phường Dĩ An, TP.HCM, Việt Nam</p>
+                </div>
+            </div>
+            
+            <div>
+                <h4 class="text-2xl font-bold text-white mb-6">Điều Hướng</h4>
+                <ul class="space-y-4 text-lg">
+                    <li><a href="gioi-thieu.html" class="hover:text-kieugia-primary transition-colors duration-300">Về Kiều Gia</a></li>
+                    <li><a href="dich-vu.html" class="hover:text-kieugia-primary transition-colors duration-300">Dịch Vụ</a></li>
+                    <li><a href="du-an.html" class="hover:text-kieugia-primary transition-colors duration-300">Dự Án Đã Kiến Tạo</a></li>
+                    <li><a href="lien-he.html" class="hover:text-kieugia-primary transition-colors duration-300">Liên Hệ</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-2xl font-bold text-white mb-6">Kết Nối Với Chúng Tôi</h4>
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/share/1CN1AQ9Y6b/?mibextid=wwXIfr" target="_blank" class="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center hover:bg-kieugia-primary transition-colors duration-300" aria-label="Facebook">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg>
+                    </a>
+                    <a href="https://zalo.me/0949033913" target="_blank" class="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center hover:bg-kieugia-primary transition-colors duration-300" aria-label="Zalo">
+                        <svg class="w-6 h-6" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M25.684 21.43c-.4-.143-.88-.242-1.397-.242a7.17 7.17 0 00-6.914 5.378c-.29-.026-.583-.05-.88-.05-3.088 0-5.636 2.05-6.643 4.908l-.132.396.395.132c.983.328 1.948.517 3.018.517 4.197 0 7.202-3.132 7.74-7.234 1.157-.02 2.214-.23 3.167-.624a6.76 6.76 0 00.912-.468c.45-.255.776-.554.912-.862.132-.308.066-.636-.2-.907zM11.968 18.06c-1.282 0-2.316-.27-3.107-.798-.79-.528-1.185-1.267-1.185-2.214 0-1.12.593-2.022 1.777-2.704 1.185-.682 2.62-1.023 4.316-1.023h.084c.73 0 1.433.087 2.109.255.676.168 1.258.4 1.745.71a3.03 3.03 0 011.168 1.196c.394.757.59 1.57.59 2.433 0 1.144-.456 2.043-1.368 2.697-.912.654-2.127.982-3.645.982z"></path></svg>
+                    </a>
+                    <a href="https://tiktok.com/@bi.tnh72" target="_blank" class="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center hover:bg-kieugia-primary transition-colors duration-300" aria-label="Tiktok">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M16 0H8a8 8 0 00-8 8v8a8 8 0 008 8h8a8 8 0 008-8V8a8 8 0 00-8-8zm-1 15a1 1 0 01-1 1H9a1 1 0 01-1-1v-4a1 1 0 011-1h6a1 1 0 011 1v4z"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container mx-auto px-6 mt-16 pt-10 border-t border-gray-700 text-center">
+            <p class="text-gray-500">© 2025 Kiều Gia Construction. Đã đăng ký bản quyền. Website được phát triển bởi Phòng IT Kiều Gia.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

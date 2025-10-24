@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự Án - Kiều Gia Construction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'kieugia-primary': '#B98D4A',
+                        'kieugia-dark': '#1A1A1A',
+                        'kieugia-text': '#333333',
+                    },
+                    fontFamily: {
+                        'sans': ['Manrope', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased text-kieugia-text bg-white">
+
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+                <img src="https://i.ibb.co/L8G4z39/Logo-nen-trang-placeholder.png" alt="Kiều Gia Construction Logo" class="h-12 md:h-16">
+            </a>
+            <div class="hidden md:flex space-x-8 items-center font-semibold">
+                <a href="index.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Trang Chủ</a>
+                <a href="gioi-thieu.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Giới Thiệu</a>
+                <a href="dich-vu.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Dịch Vụ</a>
+                <a href="du-an.html" class="text-kieugia-primary border-b-2 border-kieugia-primary pb-1">Dự Án</a>
+                <a href="quy-trinh.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Quy Trình</a>
+                <a href="bao-gia.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Báo Giá</a>
+                <a href="lien-he.html" class="bg-kieugia-primary text-white px-6 py-2.5 rounded-full font-bold hover:bg-opacity-90 transition-all duration-300">Liên Hệ</a>
+            </div>
+            <button class="md:hidden text-kieugia-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-gray-50 py-24 md:py-32">
+            <div class="container mx-auto px-6 text-center max-w-4xl">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-kieugia-dark leading-tight">Những Câu Chuyện Về Tổ Ấm Đã Được Hiện Thực Hóa</h1>
+                <p class="mt-8 text-xl text-kieugia-text">Mỗi công trình là một niềm tự hào về Chữ TÍN của Kiều Gia và là minh chứng cho tâm huyết của gia chủ.</p>
+            </div>
+        </section>
+
+        <section class="py-24 md:py-32 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <a href="du-an-chi-tiet.html" class="block relative rounded-lg overflow-hidden shadow-xl group">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6164a83639?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fG1vZGVybiUyMGhvdXNlfGVufDB8fHx8MTY3ODg5NzUyNA&ixlib=rb-4.0.3&q=80&w=1080" 
+                             alt="Biệt thự An Nhiên - Long An" class="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-8">
+                            <h3 class="text-3xl font-bold text-white">Biệt Thự An Nhiên - Long An</h3>
+                            <p class="text-gray-200 text-lg">Dịch vụ: Thiết kế & Thi công trọn gói</p>
+                            <span class="inline-block mt-2 text-kieugia-primary font-semibold">Xem chi tiết &rarr;</span>
+                        </div>
+                    </a>
+
+                    <a href="du-an-chi-tiet.html" class="block relative rounded-lg overflow-hidden shadow-xl group">
+                        <img src="https://images.unsplash.com/photo-1570129477490-d11626c710c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDl8fG5lbyUyMGNsYXNzaWNhbCUyMGhvdXNlfGVufDB8fHx8MTY3ODg5NzU1MA&ixlib=rb-4.0.3&q=80&w=1080" 
+                             alt="Nhà phố Tân cổ điển - Q7" class="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-8">
+                            <h3 class="text-3xl font-bold text-white">Nhà phố Tân cổ điển - Q7</h3>
+                            <p class="text-gray-200 text-lg">Dịch vụ: Thi công trọn gói</p>
+                            <span class="inline-block mt-2 text-kieugia-primary font-semibold">Xem chi tiết &rarr;</span>
+                        </div>
+                    </a>
+
+                    <a href="du-an-chi-tiet.html" class="block relative rounded-lg overflow-hidden shadow-xl group">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGx1eHVyeSUyMGludGVyaW9yfGVufDB8fHx8MTY3ODg5NzU4OQ&ixlib=rb-4.0.3&q=80&w=1080" 
+                             alt="Nội thất Chung cư The Peak" class="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-8">
+                            <h3 class="text-3xl font-bold text-white">Nội thất Chung cư The Peak</h3>
+                            <p class="text-gray-200 text-lg">Dịch vụ: Thiết kế nội thất</p>
+                            <span class="inline-block mt-2 text-kieugia-primary font-semibold">Xem chi tiết &rarr;</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-kieugia-dark text-gray-300 py-20">
+        </footer>
+</body>
+</html>

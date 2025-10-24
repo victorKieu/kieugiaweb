@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Giá - Kiều Gia Construction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'kieugia-primary': '#B98D4A',
+                        'kieugia-dark': '#1A1A1A',
+                        'kieugia-text': '#333333',
+                    },
+                    fontFamily: {
+                        'sans': ['Manrope', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased text-kieugia-text bg-white">
+
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+                <img src="https://i.ibb.co/L8G4z39/Logo-nen-trang-placeholder.png" alt="Kiều Gia Construction Logo" class="h-12 md:h-16">
+            </a>
+            <div class="hidden md:flex space-x-8 items-center font-semibold">
+                <a href="index.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Trang Chủ</a>
+                <a href="gioi-thieu.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Giới Thiệu</a>
+                <a href="dich-vu.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Dịch Vụ</a>
+                <a href="du-an.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Dự Án</a>
+                <a href="quy-trinh.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Quy Trình</a>
+                <a href="bao-gia.html" class="text-kieugia-primary border-b-2 border-kieugia-primary pb-1">Báo Giá</a>
+                <a href="lien-he.html" class="bg-kieugia-primary text-white px-6 py-2.5 rounded-full font-bold hover:bg-opacity-90 transition-all duration-300">Liên Hệ</a>
+            </div>
+            <button class="md:hidden text-kieugia-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-gray-50 py-24 md:py-32">
+            <div class="container mx-auto px-6 text-center max-w-4xl">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-kieugia-dark leading-tight">Báo Giá Tương Xứng Với Tâm Huyết</h1>
+            </div>
+        </section>
+
+        <section class="py-24 md:py-32 bg-white">
+            <div class="container mx-auto px-6 max-w-3xl text-center">
+                <p class="text-lg text-kieugia-text leading-relaxed mb-6">
+                    Tại Kiều Gia Construction, chúng tôi hiểu rằng tài chính là một phần quan trọng của kế hoạch kiến tạo tổ ấm. Tuy nhiên, mỗi công trình là một câu chuyện riêng, mang một "tâm huyết" và yêu cầu riêng.
+                </p>
+                <p class="text-lg text-kieugia-text leading-relaxed mb-12">
+                    Chi phí xây dựng phụ thuộc vào nhiều yếu tố: quy mô, phong cách thiết kế, và đặc biệt là chủng loại vật tư hoàn thiện mà anh/chị muốn gửi gắm.
+                </p>
+
+                <div class="bg-gray-50 p-10 rounded-lg shadow-lg">
+                    <h3 class="text-3xl font-extrabold text-kieugia-dark mb-6">Cam Kết Về Chữ TÍN Trong Tài Chính</h3>
+                    <p class="text-lg text-kieugia-text leading-relaxed mb-8">
+                        Kiều Gia cam kết về sự "minh bạch tài chính" tuyệt đối. Chúng tôi không báo giá chung chung. Chúng tôi sẽ ngồi lại cùng anh/chị, lắng nghe câu chuyện của anh/chị, và lập dự toán chi tiết, rõ ràng, bám sát ngân sách.
+                    </p>
+                    
+                    <h4 class="text-xl font-bold text-kieugia-dark mt-12 mb-4">Để nhận báo giá chi tiết và chuẩn xác nhất:</h4>
+                    <p class="text-lg text-kieugia-text leading-relaxed mb-8">
+                        Anh/chị vui lòng kết nối trực tiếp với đội ngũ chuyên gia của Kiều Gia. Chúng tôi sẵn sàng lắng nghe và tư vấn chi tiết hoàn toàn miễn phí.
+                    </p>
+
+                    <a href="tel:0949033913" 
+                       class="inline-block bg-kieugia-primary text-white px-10 py-4 rounded-full font-bold text-xl hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105">
+                        Hotline/Zalo: 0949.033.913
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-kieugia-dark text-gray-300 py-20">
+        </footer>
+</body>
+</html>

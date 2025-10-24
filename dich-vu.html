@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dịch Vụ - Kiều Gia Construction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'kieugia-primary': '#B98D4A',
+                        'kieugia-dark': '#1A1A1A',
+                        'kieugia-text': '#333333',
+                    },
+                    fontFamily: {
+                        'sans': ['Manrope', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased text-kieugia-text bg-white">
+
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+                <img src="https://i.ibb.co/L8G4z39/Logo-nen-trang-placeholder.png" alt="Kiều Gia Construction Logo" class="h-12 md:h-16">
+            </a>
+            <div class="hidden md:flex space-x-8 items-center font-semibold">
+                <a href="index.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Trang Chủ</a>
+                <a href="gioi-thieu.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Giới Thiệu</a>
+                <a href="dich-vu.html" class="text-kieugia-primary border-b-2 border-kieugia-primary pb-1">Dịch Vụ</a>
+                <a href="du-an.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Dự Án</a>
+                <a href="quy-trinh.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Quy Trình</a>
+                <a href="bao-gia.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Báo Giá</a>
+                <a href="lien-he.html" class="bg-kieugia-primary text-white px-6 py-2.5 rounded-full font-bold hover:bg-opacity-90 transition-all duration-300">Liên Hệ</a>
+            </div>
+            <button class="md:hidden text-kieugia-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-gray-50 py-24 md:py-32">
+            <div class="container mx-auto px-6 text-center max-w-4xl">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-kieugia-dark leading-tight">Giải Pháp Kiến Tạo Tổ Ấm Toàn Diện</h1>
+                <p class="mt-8 text-xl text-kieugia-text">Dù anh/chị đang ở giai đoạn nào của hành trình, Kiều Gia luôn có giải pháp đồng hành với sự tận tâm cao nhất.</p>
+            </div>
+        </section>
+
+        <section class="py-24 md:py-32 bg-white">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1542125387-0e0ae5c2d825?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwfHxhcmNoaXRlY3R1cmUlMjBwbGFufGVufDB8fHx8MTY3ODg5NzQwMQ&ixlib=rb-4.0.3&q=80&w=1080" 
+                         alt="Thiết kế kiến trúc" 
+                         class="rounded-lg shadow-xl w-full h-full object-cover">
+                </div>
+                <div class="max-w-xl">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-kieugia-dark mb-8">Thiết Kế Tận Tâm – Hiện Thực Hóa Câu Chuyện Của Bạn</h2>
+                    <p class="text-lg text-kieugia-text leading-relaxed mb-6">
+                        Với dịch vụ thiết kế, đội ngũ KTS của Kiều Gia sẽ tận tâm trong từng bản vẽ để hiện thực hóa ước mơ của anh/chị. Chúng tôi không áp đặt, chúng tôi lắng nghe câu chuyện của anh/chị để kiến tạo một không gian mang đậm dấu ấn cá nhân.
+                    </p>
+                    <ul class="text-lg text-kieugia-text space-y-2 list-disc list-inside mb-8">
+                        <li>Thiết kế kiến trúc (3D, Bản vẽ kỹ thuật)</li>
+                        <li>Thiết kế nội thất</li>
+                        <li>Tư vấn phong thủy</li>
+                    </ul>
+                    <a href="https://zalo.me/0949033913" target="_blank" class="inline-block bg-kieugia-primary text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all duration-300">
+                        Nhận Tư Vấn Thiết Kế (Zalo)
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24 md:py-32 bg-gray-50">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+                <div class="max-w-xl md:order-2">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-kieugia-dark mb-8">Thi Công Uy Tín – Vững Vàng Nền Tảng Tương Lai</h2>
+                    <p class="text-lg text-kieugia-text leading-relaxed mb-6">
+                        Giao phó tâm huyết của anh/chị cho Kiều Gia là trao gửi niềm tin. Chúng tôi cam kết Chữ TÍN trong thi công: Quản lý tiến độ nghiêm ngặt, giám sát chất lượng chặt chẽ, sử dụng vật tư chuẩn mực và minh bạch 100%.
+                    </p>
+                    <ul class="text-lg text-kieugia-text space-y-2 list-disc list-inside mb-8">
+                        <li>Thi công phần thô & hoàn thiện</li>
+                        <li>Quản lý dự án & Giám sát thi công</li>
+                        <li>Cam kết bảo hành, bảo trì</li>
+                    </ul>
+                    <a href="https://zalo.me/0949033913" target="_blank" class="inline-block bg-kieugia-primary text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all duration-300">
+                        Nhận Tư Vấn Thi Công (Zalo)
+                    </a>
+                </div>
+                <div class="md:order-1">
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNvbnN0cnVjdGlvbiUyMHNpdGV8ZW58MHx8fHwxNjc4ODk3MjI5&ixlib=rb-4.0.3&q=80&w=1080" 
+                         alt="Thi công xây dựng" 
+                         class="rounded-lg shadow-xl w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24 md:py-32 bg-white">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1581140228312-68b01b6e401b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fHJlbm92YXRpb258ZW58MHx8fHwxNjc4ODk3MjI5&ixlib=rb-4.0.3&q=80&w=1080" 
+                         alt="Sửa chữa cải tạo" 
+                         class="rounded-lg shadow-xl w-full h-full object-cover">
+                </div>
+                <div class="max-w-xl">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-kieugia-dark mb-8">Làm Mới Không Gian – Thổi Hồn Tâm Huyết</h2>
+                    <p class="text-lg text-kieugia-text leading-relaxed mb-8">
+                        Dù là cải tạo một phần hay toàn bộ, Kiều Gia vẫn giữ trọn Chữ TÂM, tỉ mỉ trong từng chi tiết để mang lại sức sống mới cho tổ ấm của anh/chị.
+                    </p>
+                    <a href="https://zalo.me/0949033913" target="_blank" class="inline-block bg-kieugia-primary text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all duration-300">
+                        Gửi Yêu Cầu Cải Tạo (Zalo)
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-kieugia-dark text-gray-300 py-20">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-16">
+            <div>
+                <a href="index.html"><img src="https://i.ibb.co/L8G4z39/Logo-nen-trang-placeholder.png" alt="Kiều Gia Construction Logo" class="h-16"></a>
+                <p class="mt-6 text-gray-400 text-lg">Vững Niềm Tin, Dựng Tương Lai.</p>
+                <div class="mt-6 space-y-3 text-lg">
+                    <p><strong>Hotline/Zalo:</strong> <a href="tel:0949033913" class="hover:text-kieugia-primary">0949033913</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:info@kieugia-construction.biz.vn" class="hover:text-kieugia-primary">info@kieugia-construction.biz.vn</a></p>
+                    <p><strong>Địa chỉ:</strong> 72 Đường số 1, Khu nhà ở Thắng Lợi, Khu phố Chiêu Liêu, Phường Dĩ An, TP.HCM, Việt Nam</p>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-2xl font-bold text-white mb-6">Điều Hướng</h4>
+                <ul class="space-y-4 text-lg">
+                    <li><a href="gioi-thieu.html" class="hover:text-kieugia-primary transition-colors duration-300">Về Kiều Gia</a></li>
+                    <li><a href="dich-vu.html" class="hover:text-kieugia-primary transition-colors duration-300">Dịch Vụ</a></li>
+                    <li><a href="du-an.html" class="hover:text-kieugia-primary transition-colors duration-300">Dự Án Đã Kiến Tạo</a></li>
+                    <li><a href="lien-he.html" class="hover:text-kieugia-primary transition-colors duration-300">Liên Hệ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-2xl font-bold text-white mb-6">Kết Nối Với Chúng Tôi</h4>
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/share/1CN1AQ9Y6b/?mibextid=wwXIfr" target="_blank" class="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center hover:bg-kieugia-primary transition-colors duration-300" aria-label="Facebook"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+                    <a href="https://zalo.me/0949033913" target="_blank" class="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center hover:bg-kieugia-primary transition-colors duration-300" aria-label="Zalo"><svg class="w-6 h-6" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M25.684 21.43c-.4-.143-.88-.242-1.397-.242a7.17 7.17 0 00-6.914 5.378c-.29-.026-.583-.05-.88-.05-3.088 0-5.636 2.05-6.643 4.908l-.132.396.395.132c.983.328 1.948.517 3.018.517 4.197 0 7.202-3.132 7.74-7.234 1.157-.02 2.214-.23 3.167-.624a6.76 6.76 0 00.912-.468c.45-.255.776-.554.912-.862.132-.308.066-.636-.2-.907zM11.968 18.06c-1.282 0-2.316-.27-3.107-.798-.79-.528-1.185-1.267-1.185-2.214 0-1.12.593-2.022 1.777-2.704 1.185-.682 2.62-1.023 4.316-1.023h.084c.73 0 1.433.087 2.109.255.676.168 1.258.4 1.745.71a3.03 3.03 0 011.168 1.196c.394.757.59 1.57.59 2.433 0 1.144-.456 2.043-1.368 2.697-.912.654-2.127.982-3.645.982z"></path></svg></a>
+                    <a href="https://tiktok.com/@bi.tnh72" target="_blank" class="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center hover:bg-kieugia-primary transition-colors duration-300" aria-label="Tiktok"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M16 0H8a8 8 0 00-8 8v8a8 8 0 008 8h8a8 8 0 008-8V8a8 8 0 00-8-8zm-1 15a1 1 0 01-1 1H9a1 1 0 01-1-1v-4a1 1 0 011-1h6a1 1 0 011 1v4z"></path></svg></a>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-6 mt-16 pt-10 border-t border-gray-700 text-center">
+            <p class="text-gray-500">© 2025 Kiều Gia Construction. Đã đăng ký bản quyền. Website được phát triển bởi Phòng IT Kiều Gia.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
