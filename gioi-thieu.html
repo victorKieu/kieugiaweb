@@ -175,5 +175,24 @@
         </div>
     </footer>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        if (menuButton && mobileMenu) {
+            menuButton.addEventListener('click', function () {
+                mobileMenu.classList.toggle('hidden');
+                
+                // Thay đổi icon nút bấm (tùy chọn, thêm tính thẩm mỹ)
+                if (mobileMenu.classList.contains('hidden')) {
+                    menuButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>`;
+                } else {
+                    menuButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>`;
+                }
+            });
+        }
+    });
+</script>
 </body>
 </html>
