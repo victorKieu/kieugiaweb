@@ -28,24 +28,40 @@
 <body class="font-sans antialiased text-kieugia-text bg-white">
 
     <header class="sticky top-0 z-50 bg-white shadow-md">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="flex items-center">
-                <img src="/public/logo-kieugia.png" alt="Kiều Gia Construction Logo" class="h-12 md:h-16">
-            </a>
-            <div class="hidden md:flex space-x-8 items-center font-semibold">
-                <a href="index.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Trang Chủ</a>
-                <a href="gioi-thieu.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Giới Thiệu</a>
-                <a href="dich-vu.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Dịch Vụ</a>
-                <a href="du-an.html" class="text-kieugia-primary border-b-2 border-kieugia-primary pb-1">Dự Án</a>
-                <a href="quy-trinh.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Quy Trình</a>
-                <a href="bao-gia.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Báo Giá</a>
-                <a href="lien-he.html" class="bg-kieugia-primary text-white px-6 py-2.5 rounded-full font-bold hover:bg-opacity-90 transition-all duration-300">Liên Hệ</a>
-            </div>
-            <button class="md:hidden text-kieugia-dark">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
-            </button>
-        </nav>
-    </header>
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="index.html" class="flex items-center">
+            <img src="/public/logo-kieugia.png" alt="Kiều Gia Construction Logo" class="h-12 md:h-16">
+        </a>
+        
+        <div class="hidden md:flex space-x-8 items-center font-semibold">
+            <a href="index.html" class="text-kieugia-primary border-b-2 border-kieugia-primary pb-1">Trang Chủ</a>
+            <a href="gioi-thieu.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Giới Thiệu</a>
+            <a href="dich-vu.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Dịch Vụ</a>
+            <a href="du-an.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Dự Án</a>
+            <a href="quy-trinh.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Quy Trình</a>
+            <a href="bao-gia.html" class="text-kieugia-dark hover:text-kieugia-primary transition-colors duration-300">Báo Giá</a>
+            <a href="lien-he.html" class="bg-kieugia-primary text-white px-6 py-2.5 rounded-full font-bold hover:bg-opacity-90 transition-all duration-300">Liên Hệ</a>
+        </div>
+        
+        <button id="mobile-menu-button" class="md:hidden text-kieugia-dark z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </button>
+    </nav>
+    
+    <div id="mobile-menu" class="hidden md:hidden absolute top-0 left-0 w-full h-screen bg-white z-40">
+        <div class="flex flex-col items-center justify-center h-full space-y-8 text-2xl font-semibold">
+            <a href="index.html" class="text-kieugia-primary">Trang Chủ</a>
+            <a href="gioi-thieu.html" class="text-kieugia-dark hover:text-kieugia-primary">Giới Thiệu</a>
+            <a href="dich-vu.html" class="text-kieugia-dark hover:text-kieugia-primary">Dịch Vụ</a>
+            <a href="du-an.html" class="text-kieugia-dark hover:text-kieugia-primary">Dự Án</a>
+            <a href="quy-trinh.html" class="text-kieugia-dark hover:text-kieugia-primary">Quy Trình</a>
+            <a href="bao-gia.html" class="text-kieugia-dark hover:text-kieugia-primary">Báo Giá</a>
+            <a href="lien-he.html" class="text-kieugia-dark hover:text-kieugia-primary">Liên Hệ</a>
+        </div>
+    </div>
+</header>
 
     <main>
         <section class="bg-gray-800 py-24 md:py-32 text-white" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6164a83639?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fG1vZGVybiUyMGhvdXNlfGVufDB8fHx8MTY3ODg5NzUyNA&ixlib=rb-4.0.3&q=80&w=1920'); background-size: cover; background-position: center; background-blend-mode: overlay;">
@@ -103,5 +119,24 @@
     <footer class="bg-kieugia-dark text-gray-300 py-20">
         </footer>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        if (menuButton && mobileMenu) {
+            menuButton.addEventListener('click', function () {
+                mobileMenu.classList.toggle('hidden');
+                
+                // Thay đổi icon nút bấm (tùy chọn, thêm tính thẩm mỹ)
+                if (mobileMenu.classList.contains('hidden')) {
+                    menuButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>`;
+                } else {
+                    menuButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>`;
+                }
+            });
+        }
+    });
+</script>
 </body>
 </html>
